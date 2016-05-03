@@ -68,6 +68,18 @@ public class Menu {
     private void totales() {
         //peliculas que tiene por ver el ususario 2
 
+        int porVer = misPeliculas.peliculasPorVer();
+        System.out.println("El usuario tiene " + porVer + " peliculas.");
+        
+        //peliculas que hay
+        
+        int total = misPeliculas.cantidad();
+        
+        System.out.println("En total tienes " + total + " peliculas.");
+        
+        int minutos= 0;
+        
+        
     }
 
     private void peliculaFavorita() {

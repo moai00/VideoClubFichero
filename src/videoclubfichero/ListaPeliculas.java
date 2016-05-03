@@ -29,12 +29,12 @@ public class ListaPeliculas implements Serializable {
     public int cantidad() {
         return lista.size();
     }
-    
-    public int peliculasPorVer(){
-        int total=0;
-        for (Pelicula p : lista){
-            if (p.isVisto() == false){
-                total ++;
+
+    public int peliculasPorVer() {
+        int total = 0;
+        for (Pelicula p : lista) {
+            if (p.isVisto() == false) {
+                total++;
             }
         }
         return total;
@@ -49,7 +49,18 @@ public class ListaPeliculas implements Serializable {
         return null;
     }
 
-        //metodo que me devuelve la pelicula mejor valorada
+    //metodo que devuelve los minutos totales de la peliculas
+    public int duracionTotal() {
+        int total = 0;
+
+        for (Pelicula p : lista) {
+            total = total + p.getDuracion();
+        }
+
+        return total;
+    }
+
+    //metodo que me devuelve la pelicula mejor valorada
     //devuelve null si no hay peliculas
     public Pelicula favorita() {
         if (lista.isEmpty()) {
@@ -62,7 +73,7 @@ public class ListaPeliculas implements Serializable {
                     fav = p;
                 }
             }
-            
+
             return fav;
         }
 
@@ -72,7 +83,7 @@ public class ListaPeliculas implements Serializable {
         return lista.get(posicion);
     }
 
-        //funcion que comprueba si existe una pelicula con el mismo codigo
+    //funcion que comprueba si existe una pelicula con el mismo codigo
     //que p (Parametro) en el array List
     public boolean existe(Pelicula p) {
 //            for (Pelicula aux : lista){
