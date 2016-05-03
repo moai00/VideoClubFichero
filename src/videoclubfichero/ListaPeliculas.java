@@ -29,6 +29,16 @@ public class ListaPeliculas implements Serializable {
     public int cantidad() {
         return lista.size();
     }
+    
+    public int peliculasPorVer(){
+        int total=0;
+        for (Pelicula p : lista){
+            if (p.isVisto() == false){
+                total ++;
+            }
+        }
+        return total;
+    }
 
     public Pelicula peliculaPorCodigo(String codigo) {
         for (Pelicula p : lista) {

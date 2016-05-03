@@ -66,6 +66,7 @@ public class Menu {
     }
 
     private void totales() {
+        //peliculas que tiene por ver el ususario
 
     }
 
