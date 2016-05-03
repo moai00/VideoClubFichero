@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="videoclubfichero.ListaPeliculas" id="ListaPeliculas0">
+  <void property="lista">
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>21</string>
+     </void>
+     <void property="duracion">
+      <int>120</int>
+     </void>
+     <void property="genero">
+      <string>terror</string>
+     </void>
+     <void property="titulo">
+      <string>pepe</string>
+     </void>
+     <void property="valoracion">
+      <int>5</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>1</string>
+     </void>
+     <void property="duracion">
+      <int>120</int>
+     </void>
+     <void property="genero">
+      <string>Drama</string>
+     </void>
+     <void property="titulo">
+      <string>Pulp Fiction</string>
+     </void>
+     <void property="valoracion">
+      <int>9</int>
+     </void>
+     <void property="visto">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>2</string>
+     </void>
+     <void property="duracion">
+      <int>129</int>
+     </void>
+     <void property="genero">
+      <string>Anime/Accion</string>
+     </void>
+     <void property="titulo">
+      <string>Akira</string>
+     </void>
+     <void property="valoracion">
+      <int>10</int>
+     </void>
+     <void property="visto">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>3</string>
+     </void>
+     <void property="duracion">
+      <int>90</int>
+     </void>
+     <void property="genero">
+      <string>Anime/Drama</string>
+     </void>
+     <void property="titulo">
+      <string>Wolf Children</string>
+     </void>
+     <void property="valoracion">
+      <int>9</int>
+     </void>
+     <void property="visto">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>4</string>
+     </void>
+     <void property="duracion">
+      <int>90</int>
+     </void>
+     <void property="genero">
+      <string>Accion </string>
+     </void>
+     <void property="titulo">
+      <string>Spiderman 3</string>
+     </void>
+     <void property="valoracion">
+      <int>9</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="videoclubfichero.Pelicula">
+     <void property="codigo">
+      <string>5</string>
+     </void>
+     <void property="duracion">
+      <int>120</int>
+     </void>
+     <void property="genero">
+      <string>pepe</string>
+     </void>
+     <void property="titulo">
+      <string>hola</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
