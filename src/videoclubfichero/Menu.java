@@ -77,7 +77,8 @@ public class Menu {
         
         System.out.println("En total tienes " + total + " peliculas.");
         
-        int minutos= 0;
+        int minutos= misPeliculas.duracionTotal();
+        System.out.println("EN total tu coleccion dura " + minutos + " minutos.");
         
         
     }
